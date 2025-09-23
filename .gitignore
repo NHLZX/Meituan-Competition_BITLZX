@@ -1,0 +1,11 @@
+# Catkin workspace build products
+build/
+devel/
+install/
+
+# Log files
+*.log
+
+# IDE specific files (optional, but good practice)
+.vscode/
+.idea/

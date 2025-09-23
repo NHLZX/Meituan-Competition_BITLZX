@@ -1,0 +1,6 @@
+<launch>
+    <!-- 启动关键词提取节点 -->
+    <node name="keyword_extractor" pkg="keyword_extractor" type="keyword_extractor_node.py" output="screen">
+        <!-- 可选：设置日志级别 -->
+    </node>
+</launch>

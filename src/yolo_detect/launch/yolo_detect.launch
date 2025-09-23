@@ -1,0 +1,7 @@
+<launch>
+    <!-- YOLOv8检测节点 -->
+    <node pkg="yolo_detect" type="yolo_detector.py" name="yolo_detector" output="screen">
+    </node>
+    <node pkg="yolo_detect" type="human_tracker.py" name="human_tracker" output="screen">
+    </node>
+</launch>

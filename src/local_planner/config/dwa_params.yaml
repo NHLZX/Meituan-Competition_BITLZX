@@ -1,0 +1,35 @@
+# dwa_planner:
+#   # 运动学参数
+#   max_vel_x: 5       # X方向最大速度 (m/s)
+#   min_vel_x: -2.0      # X方向最小速度 (允许后退)
+#   max_vel_y: 5      # Y方向最大平移速度
+#   min_vel_y: -5.0      # Y方向最小平移速度
+  
+#   # 旋转参数
+#   max_rot_vel: 1.2     # 最大旋转速度 (rad/s)
+#   min_rot_vel: -1.2    # 最小旋转速度
+  
+#   # 加速度限制
+#   acc_lim_x: 2       # X方向加速度限制 (m/s²)
+#   acc_lim_y: 2       # Y方向加速度限制
+#   rot_acc_lim: 1.8     # 旋转加速度限制 (rad/s²)
+  
+#   # 时间参数
+#   sim_time: 1.5        # 轨迹预测时间 (s)
+#   step_size: 0.1       # 轨迹步长 (s)
+#   control_frequency: 70.0 # 控制频率 (Hz)
+  
+#   # 目标公差
+#   goal_pos_tolerance: 0.15  # 位置公差 (m)
+#   goal_rot_tolerance: 0.15  # 朝向公差 (rad)
+  
+#   # 代价权重
+#   obstacle_cost_weight: 10.0
+#   goal_cost_weight: 15.0
+#   goal_orientation_weight: 6.0
+#   velocity_cost_weight: 8.0
+  
+#   # 机器人参数
+#   robot_radius: 0.35   # 机器人半径 (包含安全余量)
+#   base_frame: "car/base_link"  # 机器人基坐标系
+#   odom_topic: "/magv/odometry/gt"  # 里程计话题

@@ -1,0 +1,6 @@
+<launch>
+  <!-- ArUco Detector Node -->
+  <node pkg="waypoint_example" type="aruco_detector.py" name="aruco_detector" output="screen">
+
+  </node>
+</launch>
