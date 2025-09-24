@@ -2,7 +2,7 @@
   <name>local_planner</name>
   <version>0.0.1</version>
   <description>Local Planner</description>
-  <maintainer email="zhangji@cmu.edu">Ji Zhang</maintainer>
+  <maintainer email="1852163294.qq.com">Zhongxu Liu</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
