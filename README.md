@@ -2,7 +2,7 @@
 
 ![ROS](https://img.shields.io/badge/ROS-Noetic-green) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![C++](https://img.shields.io/badge/C++-14-purple) ![YOLOv8](https://img.shields.io/badge/YOLO-v8-yellow)
 
-本项目是针对**美团第三届低空经济智能飞行管理挑战赛（性能赛）**的完整开源解决方案。本方案基于 ROS 框架，结合了基于规则的自然语言指令解析、YOLOv8 与 3D LiDAR 的多模态感知融合、鲁棒的有限状态机（FSM）决策以及高精度的 ArUco 终点对齐技术，实现了地面小车在复杂仿真环境下的自主视觉语言导航。
+本项目是针对** 美团第三届低空经济智能飞行管理挑战赛（性能赛）**的完整开源解决方案。本方案基于 ROS 框架，结合了基于规则的自然语言指令解析、YOLOv8 与 3D LiDAR 的多模态感知融合、鲁棒的有限状态机（FSM）决策以及高精度的 ArUco 终点对齐技术，实现了地面小车在复杂仿真环境下的自主视觉语言导航。
 
 ## 📖 赛题背景与任务要求
 
